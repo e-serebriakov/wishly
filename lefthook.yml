@@ -1,0 +1,7 @@
+---
+pre-commit:
+  parallel: true
+  commands:
+    linter:
+      glob: "*.{js,svelte}"
+      run: pnpm format {staged_files} &&  pnpm lint {staged_files} && git add {staged_files}
