@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/Users/eserebryakov/.asdf/installs/nodejs/20.10.0/pnpm-global/5\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"/Users/eserebryakov/.asdf/installs/nodejs/20.10.0/pnpm-global/5\".\n    at readProjectManifest (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:19790:13)\n    at async readProjectManifest (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43550:60)\n    at async Object.handler (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:119660:67)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:183657:21\n    at async run (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:183631:34)\n    at async runPnpm (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:183843:5)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:183835:7"
+    }
+  }
+}

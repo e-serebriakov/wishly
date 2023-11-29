@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: ./
+      target: dev
+    volumes:
+      - ./src:/usr/src/app/src
+    command: pnpm dev
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: dev
