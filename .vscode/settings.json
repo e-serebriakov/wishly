@@ -1,0 +1,18 @@
+{
+  "eslint.enable": true,
+  "eslint.options": {
+    "overrideConfigFile": "./.eslintrc.cjs"
+  },
+  "eslint.validate": [
+    "javascript",
+    "svelte",
+    "typescript"
+  ],
+  "cSpell.words": [
+    "fira",
+    "fontsource",
+    "lefthook",
+    "neoconfetti",
+    "wishly"
+  ]
+}
