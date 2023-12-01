@@ -24,4 +24,4 @@ jobs:
       - name: Run unit tests
         run: pnpm vitest run 
       - name: Run integrations tests
-        run: pnpm playwright test
+        run: pnpm exec playwright install && pnpm playwright test
