@@ -43,12 +43,12 @@
 	"customizations": {
 		"vscode": {
       "extensions": [
-		"streetsidesoftware.code-spell-checker",
-		"svelte.svelte-vscode",
-		"dbaeumer.vscode-eslint",
-		"ms-azuretools.vscode-docker",
-		"eamodio.gitlens"
-	]
+				"streetsidesoftware.code-spell-checker",
+				"svelte.svelte-vscode",
+				"dbaeumer.vscode-eslint",
+				"ms-azuretools.vscode-docker",
+				"eamodio.gitlens"
+			]
     }
 	},
 	"updateContentCommand": "pnpm install",
